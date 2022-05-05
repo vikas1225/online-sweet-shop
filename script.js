@@ -246,7 +246,7 @@ for (let i = 0; i < cart.length; i++) {
 
         // update name and price
         cartModalName.innerText = name;
-        cartModalPrice.innerText = price + "₹";
+        cartModalPrice.innerText = price;
         cartModalItemContainer.appendChild(cartModalName);
         cartModalItemContainer.appendChild(cartModalPrice);
         cartItem.appendChild(cartModalItemContainer);
